@@ -14,4 +14,4 @@ void print_most_numbers(void)
       ++i;
     }
   _putchar('\n');
-}11;rgb:0000/0000/0000
+}
