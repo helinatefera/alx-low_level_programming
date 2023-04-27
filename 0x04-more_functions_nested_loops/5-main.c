@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-    print_numbers();
-    return (0);
-}
+  more_numbers();
+  return (0);
+}0;276;0c
