@@ -12,13 +12,11 @@
  *
  * Return: Always 0.
 */
-int positive_or_negative(void)
+int positive_or_negative(int n)
 {
-	int n;
+	
 
-	srand(time(0));
-	n = 0;
-
+	
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n < 0)
