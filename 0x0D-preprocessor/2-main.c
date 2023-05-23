@@ -1,6 +1,13 @@
-#ifndef _pi_h_
-#define _pi_h_
+#include <stdio.h>
 
-#define PI 3.14159265359
+/**
+ * main - prints the name of the file it was compiled from
+ *
+ * Return: Everything worked ok
+ */
 
-#endif /* _pi_h_ */
+int main(void)
+{
+	printf("%s\n", __BASE_FILE__);
+	return (0);
+}
