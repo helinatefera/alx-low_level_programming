@@ -1,5 +1,0 @@
-#include "main.h"
-
-int main(void)
-{
-    _puts("\"this part was the hard 
